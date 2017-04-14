@@ -1,0 +1,3 @@
+[submodule "learn-ansible"]
+	path = learn-ansible
+	url = https://github.com/gilleslabs/learn-ansible
