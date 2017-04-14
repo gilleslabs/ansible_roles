@@ -1,0 +1,32 @@
+---
+# file: sample_role_oracle-java/meta/main.yml
+#
+# meta file
+#
+galaxy_info:
+  description: Role to install Oracle Java.
+  min_ansible_version: 1.8.4
+  platforms:
+    - name: CentOS
+      versions:
+        - all
+        - any
+        - 7
+        - 6
+    - name: Debian
+      versions:
+        - jessie
+        - wheezy
+    - name: RedHat
+      versions:
+        - all
+        - any
+        - 7
+        - 6
+    - name: Ubuntu
+      versions:
+        - vivid
+        - trusty
+        - precise
+dependencies:
+  - { role: 'git+https://bitbucket.org/ursuad/sample_role_launchpad-ppa-webupd8,v1.0.0'}

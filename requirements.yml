@@ -1,0 +1,3 @@
+# from bitbucket, if bitbucket happens to be operational right now :)
+- src: git+git@bitbucket.org:ursuad/sample_role_launchpad-ppa-webupd8
+  version: v1.0.0
