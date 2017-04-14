@@ -29,4 +29,4 @@ galaxy_info:
         - trusty
         - precise
 dependencies:
-  - { role: 'git+https://bitbucket.org/ursuad/sample_role_launchpad-ppa-webupd8,v1.0.0'}
+  - { role: 'git+https://bitbucket.org/ursuad/sample_role_launchpad-ppa-webupd8,v1.0.1'}
